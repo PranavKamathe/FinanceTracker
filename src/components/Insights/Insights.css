@@ -1,0 +1,16 @@
+.insights{
+  margin-top:30px;
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.1);
+}
+
+.insights h2{
+  margin-bottom:10px;
+}
+
+.insights p{
+  margin-top:8px;
+  font-size:16px;
+}

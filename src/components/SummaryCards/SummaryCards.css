@@ -1,0 +1,36 @@
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+.card{
+  padding:25px;
+  border-radius:12px;
+  color:white;
+  font-size:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+.balance{
+  background:linear-gradient(135deg,#5f72be,#9b23ea);
+}
+
+.income{
+  background:linear-gradient(135deg,#11998e,#38ef7d);
+}
+
+.expense{
+  background:linear-gradient(135deg,#ff416c,#ff4b2b);
+}
+
+.card p{
+  margin-top:10px;
+  font-size:24px;
+  font-weight:bold;
+}

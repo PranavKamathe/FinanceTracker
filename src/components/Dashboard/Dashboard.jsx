@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Dashboard.css";
 
+
 import SummaryCards from "../SummaryCards/SummaryCards";
 import BalanceTrend from "../Charts/BalanceTrend";
 import SpendingBreakdown from "../Charts/SpendingBreakdown";

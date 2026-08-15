@@ -6,6 +6,7 @@ function BalanceTrend() {
     </div>
   );
 
+  
 }
 
 export default BalanceTrend;
